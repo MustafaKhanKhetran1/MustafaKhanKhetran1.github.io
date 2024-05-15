@@ -45670,10 +45670,11 @@ a3=B.c.bk((a3.a*1e6+B.e.aV(a3.b,1000))/1000)
 a4=new A.bX(a3,!1)
 a4.AA(a3,!1)
 h=a4
-a3=A.zt(A.t_(h),A.fp(h),A.rZ(h),0,0,0,0,!1)
+a3=Date.now()
+if(h.a>a3){a3=A.zt(A.t_(h),A.fp(h),A.rZ(h),0,0,0,0,!1)
 if(!A.hU(a3))A.aa(A.hV(a3))
 g=new A.bX(a3,!1)
-J.fK(m,i,g)}case 8:e.length===c||(0,A.G)(e),++a
+J.fK(m,i,g)}}case 8:e.length===c||(0,A.G)(e),++a
 s=7
 break
 case 9:o.a1(new A.af8(o,m))
